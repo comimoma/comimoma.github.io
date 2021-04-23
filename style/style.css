@@ -1,4 +1,4 @@
-/* body {
+body {
   background-color: powderblue;
 }
 h1 {
@@ -6,7 +6,8 @@ h1 {
 }
 p {
   color: red;
-} */
+}
+
 .nav a {
   color: #292929;
   display: inline-block;
