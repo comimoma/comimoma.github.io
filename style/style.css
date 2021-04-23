@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: powderblue;
 }
 h1 {
@@ -6,13 +6,14 @@ h1 {
 }
 p {
   color: red;
-}
+} */
 
-.nav a {
+a{
   color: #292929;
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
   font-size: 20;
   font-weight: 750;
-  padding: 10px 25px 10px 25px;
+  padding: 10px 5px 10px 5px;
+  text-decoration: none;
 }
