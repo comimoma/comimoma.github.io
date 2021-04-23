@@ -1,0 +1,17 @@
+/* body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+} */
+.nav a {
+  color: #292929;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20;
+  font-weight: 750;
+  padding: 10px 25px 10px 25px;
+}
