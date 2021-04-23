@@ -22,18 +22,23 @@ p {
 }
 
 /* menu style */
-.web-menu{
+.banner{
   position: relative;
   margin-top: -1px;
   background-color: #292929;
 }
 
-.web-menu ul li{
+.web-menu{
+  position: relative;
+  width: 100%;
+}
+
+.web-nav ul li{
   position: relative;
   margin: 0px;
 }
 
-.web-menu ul a{
+.web-nav ul a{
   display: block;
   margin: 0px;
   padding: 10px 5px 10px 5px;
