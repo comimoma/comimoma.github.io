@@ -1,51 +1,72 @@
-/* body {
-  background-color: powderblue;
+@charset "utf-8";
+/* frame style*/
+body{
+  background-color: #fffeff;
+  margin: 0em 0em 0em 0em;
+  padding: 0em;
 }
-h1 {
-  color: blue;
+
+a{
+  text-decoration: none;
+  color: #540b00;
 }
-p {
+a:hover{
   color: red;
-} */
-
-.banner {
-  /* background-image: url("../image/banner-tobereplaced.jpg"); */
-  height: 125px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-.logo a img{
-  width: 400px;
-  height: 200px;
-}
-
-/* menu style */
-.banner{
-  position: relative;
-  margin-top: -1px;
-  background-color: #292929;
-}
-
-.web-menu{
-  position: relative;
+.topheader{
+  display: inline-grid;
+  grid-template-columns: auto auto;
   width: 100%;
 }
-
-.web-nav ul li{
-  position: relative;
-  margin: 0px;
+.top_left{
+  text-align: left;
+  margin-left: 1em;
 }
-
-.web-nav ul a{
-  display: block;
-  margin: 0px;
-  padding: 10px 5px 10px 5px;
-  border-bottom: 1px solid;
-  border-color: rgba(255, 255, 255, 0.1);
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20;
-  font-weight: 750;
+.top_right{
+  text-align: right;
+  margin-right: 1em;
+}
+.banner{
+  display: inline-grid;
+  grid-template-columns: auto 100px 100px 255px 100px 100px auto;
+  width: 100%;
+  font-family: "Cooper Black", "Helvetica", Sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.banner div{
+  text-align: center;
+  margin: auto;
+}
+main{
+  margin-top: 1em;
+}
+.carousel{
+  padding: 0;
+}
+p{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  line-height: 1.25;
+}
+section{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.about{
+  background-color: #fff2e8;
+}
+footer {
+  margin: 0em;
+  padding: 0.5em 0.2em 0.5em 0.2em;
+  text-align: center;
+  background-color: #540b00;
+  color:#fffeff;
+  font-family: "Cooper", "Helvetica", Sans-serif;
+  font-weight: lighter;
+  min-height: 50px;
+}
+.copyright{
+  margin-top: 1em;
 }
