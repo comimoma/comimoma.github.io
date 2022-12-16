@@ -29,7 +29,7 @@ a:hover{
 }
 .banner{
   display: inline-grid;
-  grid-template-columns: auto 600px auto;
+  grid-template-columns: auto auto auto;
   width: 100%;
   font-family: "Cooper Black", "Helvetica", Sans-serif;
   font-size: 50px;
