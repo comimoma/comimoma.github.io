@@ -29,10 +29,10 @@ a:hover{
 }
 .banner{
   display: inline-grid;
-  grid-template-columns: auto 100px 100px 255px 100px 100px auto;
+  grid-template-columns: auto 600px auto;
   width: 100%;
   font-family: "Cooper Black", "Helvetica", Sans-serif;
-  font-size: 20px;
+  font-size: 50px;
   font-weight: bold;
 }
 .banner div{
