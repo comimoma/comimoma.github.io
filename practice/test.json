@@ -1,0 +1,4 @@
+{
+    "normal_users": [{"test1": "test"}],
+    "admin_users": [{"test2": "testtest"}]
+}
