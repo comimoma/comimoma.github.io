@@ -316,3 +316,85 @@ footer{
   width: 99%;
   height: 90%;
 }
+
+/* Rental profile content and five-photo gallery */
+.rental-content {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  line-height: 1.5;
+}
+
+.photo-gallery {
+  width: 100%;
+  margin-top: 0.75em;
+}
+
+.photo-row {
+  display: grid;
+  width: 100%;
+  gap: 2px;
+  margin-bottom: 2px;
+  align-items: start;
+}
+
+.photo-row-three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+/* 16:9 column ratio gives the 4:3 and 3:4 photos nearly equal heights. */
+.photo-row-two {
+  grid-template-columns: minmax(0, 16fr) minmax(0, 9fr);
+}
+
+.photo-frame {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  background: #D7D7D7;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.photo-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.photo-frame figcaption {
+  min-height: 2.6em;
+  padding: 0.25em 0.2em 0.35em;
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 0.9em;
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+  .photo-frame figcaption {
+    font-size: 0.72em;
+  }
+}
+
+
+
+/* Rental profile heading hierarchy */
+.profile-main-title {
+  font-size: 2.1em;
+  text-transform: uppercase;
+}
+
+.identity-heading {
+  font-size: 1.4em;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.profile-section {
+  padding-top: 1.5em;
+}
+
+.profile-heading {
+  font-size: 1.6em;
+  font-family: 'Ubuntu Mono', monospace;
+}
