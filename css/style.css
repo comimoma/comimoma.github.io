@@ -319,34 +319,29 @@ footer{
 
 /* Rental profile content and five-photo gallery */
 .rental-content {
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: 'Averia Serif Libre', "Helvetica", Sans-serif;
   line-height: 1.5;
 }
 
 .photo-gallery {
   width: 100%;
   margin-top: 0.75em;
+  overflow-x: auto;
+  padding-bottom: 0.25em;
 }
 
 .photo-row {
-  display: grid;
-  width: 100%;
+  display: flex;
+  width: max-content;
   gap: 2px;
-  margin-bottom: 2px;
-  align-items: start;
-}
-
-.photo-row-three {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-/* 16:9 column ratio gives the 4:3 and 3:4 photos nearly equal heights. */
-.photo-row-two {
-  grid-template-columns: minmax(0, 16fr) minmax(0, 9fr);
+  margin: 0 auto 2px auto;
+  align-items: flex-start;
+  flex-wrap: nowrap;
 }
 
 .photo-frame {
-  min-width: 0;
+  flex: 0 0 auto;
+  width: max-content;
   margin: 0;
   overflow: hidden;
   background: #D7D7D7;
@@ -354,30 +349,26 @@ footer{
   box-sizing: border-box;
 }
 
+/* Match the original page's fixed 200 px image height. */
 .photo-frame img {
   display: block;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 200px;
+  max-width: none;
   box-sizing: border-box;
 }
 
 .photo-frame figcaption {
+  width: 100%;
+  max-width: 270px;
   min-height: 2.6em;
   padding: 0.25em 0.2em 0.35em;
   text-align: center;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: 'Averia Serif Libre', "Helvetica", Sans-serif;
   font-size: 0.9em;
   line-height: 1.2;
   box-sizing: border-box;
 }
-
-@media (max-width: 500px) {
-  .photo-frame figcaption {
-    font-size: 0.72em;
-  }
-}
-
-
 
 /* Rental profile heading hierarchy */
 .profile-main-title {
